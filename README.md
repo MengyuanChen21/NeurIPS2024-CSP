@@ -36,7 +36,7 @@ To perform all experiments, users still need to prepare some other small dataset
 Configuration files for all experiments are available in the `custom_config` folder.
 To run the project, please follow:
 ```
-PYTHONPATH=. python ./tools/ood_dist.py custom_config/{config-file-name} foo
+PYTHONPATH=. python ./tools/ood_test.py custom_config/{config-file-name} foo
 ```
 where `{config-file-name}` can be the name of any config file.
 
